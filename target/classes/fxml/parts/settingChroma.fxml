@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="408.0" prefWidth="595.0" style="-fx-background-color: rgb(35,35,35);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.parts.ChromaController">
+   <children>
+      <Label layoutX="68.0" layoutY="43.0" text="Изменение цвета" textFill="#e1e1e1">
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="50.0" />
+         </font>
+      </Label>
+      <ColorPicker fx:id="colorChromakey" layoutX="183.0" layoutY="167.0" prefHeight="37.0" prefWidth="229.0" style="-fx-background-color: rgb(255,255,255);" />
+      <Button fx:id="btnSave" layoutX="140.0" layoutY="263.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="316.0" style="-fx-background-color: rgb(255,176,23);" text="Сохранить" textAlignment="CENTER">
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="39.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

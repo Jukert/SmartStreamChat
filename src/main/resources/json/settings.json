@@ -1,0 +1,17 @@
+{
+  "permission":{
+    "owner":"#ffcc00",
+    "moderator":"#008aff",
+    "sponsor":"#c632ca",
+    "guest":"#ffa742"
+  },
+  "settingText":{
+    "font":"Uni Sans Heavy Caps",
+    "color":"e6e6e6ff",
+    "size":"12"
+  },
+  "background":"7cfc00ff",
+  "censor":"false",
+  "shape":"rectangle",
+  "analytic":"false"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="408.0" prefWidth="595.0" style="-fx-background-color: rgb(35,35,35);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.parts.PersistentController">
+   <children>
+      <Button fx:id="btnSave" layoutX="140.0" layoutY="303.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="316.0" style="-fx-background-color: rgb(255,176,23);" text="Сохранить" textAlignment="CENTER">
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="39.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="111.0" layoutY="45.0" text="Владелец:" textFill="WHITE">
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="30.0" />
+         </font>
+      </Label>
+      <ColorPicker fx:id="clPOwner" layoutX="337.0" layoutY="45.0" prefHeight="37.0" prefWidth="147.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ColorPicker>
+      <ColorPicker fx:id="clPSponsor" layoutX="338.0" layoutY="105.0" prefHeight="37.0" prefWidth="147.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ColorPicker>
+      <Label layoutX="112.0" layoutY="105.0" text="спонсор:" textFill="WHITE">
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="30.0" />
+         </font>
+      </Label>
+      <ColorPicker fx:id="clPModerator" layoutX="337.0" layoutY="165.0" prefHeight="37.0" prefWidth="147.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ColorPicker>
+      <Label layoutX="111.0" layoutY="165.0" text="Модератор:" textFill="WHITE">
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="30.0" />
+         </font>
+      </Label>
+      <ColorPicker fx:id="clPGuest" layoutX="337.0" layoutY="225.0" prefHeight="37.0" prefWidth="147.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ColorPicker>
+      <Label layoutX="111.0" layoutY="225.0" text="Гость:" textFill="WHITE">
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

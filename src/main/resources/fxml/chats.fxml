@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="chatPane" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: rgb(124,252,0);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ChatController">
+    <children>
+      <ScrollPane fx:id="chatScroll" layoutY="36.0" prefHeight="564.0" prefWidth="500.0" style="-fx-background-color: rgb(124,252,0);">
+         <content>
+            <VBox fx:id="chatList" prefHeight="598.0" prefWidth="499.0" style="-fx-background-color: rgb(124,252,0);" />
+         </content>
+      </ScrollPane>
+        <Pane fx:id="upBorder" prefHeight="32.0" prefWidth="500.0">
+         <children>
+            <ImageView fx:id="btnClose" fitHeight="26.0" fitWidth="28.0" layoutX="470.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/closeChat.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+    </children>
+   <stylesheets>
+      <URL value="@../stylesheets/font.css" />
+      <URL value="@../stylesheets/chatList.css" />
+   </stylesheets>
+</AnchorPane>

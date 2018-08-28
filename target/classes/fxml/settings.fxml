@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SettingsController">
+   <children>
+      <AnchorPane prefHeight="550.0" prefWidth="271.0" style="-fx-background-color: rgb(30,30,30);">
+         <children>
+            <AnchorPane layoutY="30.0" prefHeight="133.0" prefWidth="271.0" style="-fx-background-color: rgb(255,176,23);">
+               <children>
+                  <Label fx:id="userName" layoutX="89.0" layoutY="31.0" prefHeight="71.0" prefWidth="168.0" text="жёрик вартанов" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Uni Sans Heavy Caps Italic Regular" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="userAvatar" fitHeight="71.0" fitWidth="55.0" layoutX="34.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../АВИ/129210270___otrisovkidelimsyatema017fdd3a9b71_58114png__3_.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="89.0" layoutY="99.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" style="-fx-background-color: rgb(48,48,48); -fx-background-radius: 0;" text="Профиль" textFill="WHITE">
+                     <font>
+                        <Font name="Uni Sans Heavy Caps Italic Regular" size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+                  <ImageView fx:id="toMain" fitHeight="39.0" fitWidth="44.0" layoutX="6.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/arrow.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Button fx:id="btnSettingChroma" contentDisplay="CENTER" layoutY="194.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="271.0" style="-fx-background-color: rgb(48,48,48); -fx-background-radius: 0;" text="Настройки хромакея" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Uni Sans Heavy Caps Italic Regular" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="btnSettingText" contentDisplay="CENTER" layoutY="239.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="271.0" style="-fx-background-color: rgb(35,35,35); -fx-background-radius: 0;" text="Настройки Текста" textAlignment="CENTER" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Uni Sans Heavy Caps Italic Regular" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnInternal" contentDisplay="CENTER" layoutY="284.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="271.0" style="-fx-background-color: rgb(35,35,35); -fx-background-radius: 0;" text="внутренние Настройки" textAlignment="CENTER" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Uni Sans Heavy Caps Italic Regular" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnSettingPersistent" contentDisplay="CENTER" layoutY="329.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="271.0" style="-fx-background-color: rgb(35,35,35); -fx-background-radius: 0;" text="Настройки привелегий" textAlignment="CENTER" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Uni Sans Heavy Caps Italic Regular" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="271.0" prefHeight="550.0" prefWidth="631.0" style="-fx-background-color: rgb(48,48,48);">
+         <children>
+            <AnchorPane fx:id="paneSettings" layoutX="18.0" layoutY="128.0" prefHeight="408.0" prefWidth="595.0" style="-fx-background-color: rgb(35,35,35);" />
+            <AnchorPane layoutX="-15.0" layoutY="14.0" prefHeight="98.0" prefWidth="649.0" style="-fx-background-color: rgb(240,162,14);">
+               <children>
+                  <Label fx:id="caption" alignment="CENTER" layoutY="22.0" prefHeight="46.0" prefWidth="649.0" text="меню настроек хромакея" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Uni Sans Heavy Caps Italic Regular" size="37.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Polygon fx:id="triangle" fill="#1f1f1f" layoutX="275.0" layoutY="219.0" rotate="90.0" scaleX="0.3" scaleY="0.1" stroke="BLACK" strokeType="INSIDE">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+      </Polygon>
+   </children>
+</AnchorPane>

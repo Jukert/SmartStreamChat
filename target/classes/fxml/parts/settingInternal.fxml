@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="408.0" prefWidth="595.0" style="-fx-background-color: rgb(35,35,35);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.parts.InternalController">
+   <children>
+      <Label layoutX="84.0" layoutY="51.0" text="фильтр сообщений" textFill="#e1e1e1">
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSave" layoutX="140.0" layoutY="299.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="316.0" style="-fx-background-color: rgb(255,176,23);" text="Сохранить" textAlignment="CENTER">
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="39.0" />
+         </font>
+      </Button>
+      <ToggleButton fx:id="btnFilterMessages" layoutX="336.0" layoutY="44.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="161.0" style="-fx-background-color: rgb(48,48,48); -fx-border-color: white;" text="Включен" textFill="#3ac10d">
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ToggleButton>
+      <ToggleButton fx:id="btnPanelAnalytics" layoutX="337.0" layoutY="118.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="161.0" style="-fx-background-color: rgb(48,48,48); -fx-border-color: white;" text="Включен" textFill="#3ac10d">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ToggleButton>
+      <Label layoutX="85.0" layoutY="125.0" text="панель аналитики" textFill="#e1e1e1">
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="213.0" layoutY="180.0" text="фон сообщений" textFill="#e1e1e1">
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="20.0" />
+         </font>
+      </Label>
+      <ToggleButton layoutX="157.0" layoutY="226.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="267.0" style="-fx-background-color: rgb(48,48,48); -fx-border-color: white;" text="прямоугольник" textFill="#c3c3c3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Uni Sans Heavy Caps Italic Regular" size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ToggleButton>
+   </children>
+</AnchorPane>
